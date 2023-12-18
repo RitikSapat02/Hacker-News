@@ -14,7 +14,7 @@ const PostDetail = () => {
     const fetchPost = async () => {
       try {
         setLoading(true);
-        const response = await axios.get(`http://hn.algolia.com/api/v1/items/${objectID}`);
+        const response = await axios.get(`https://hn.algolia.com/api/v1/items/${objectID}`);
         setPost(response.data);
       } catch (error) {
         console.error('Error fetching post details', error);
