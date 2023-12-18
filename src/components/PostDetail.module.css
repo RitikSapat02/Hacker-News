@@ -1,0 +1,30 @@
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.points {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.commentList {
+  padding: 0;
+}
+
+.commentItem {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.commentItem:last-child {
+  margin-bottom: 0;
+}
